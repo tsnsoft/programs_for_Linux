@@ -1,0 +1,3 @@
+WINEPREFIX=~/.wine32 winetricks
+
+

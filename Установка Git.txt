@@ -1,0 +1,4 @@
+sudo apt-get install git
+
+git config --global user.name "ваше_имя"
+git config --global user.email "ваша@поч.та"

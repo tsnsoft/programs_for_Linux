@@ -1,0 +1,3 @@
+sudo apt-get install android-tools-adb
+sudo usermod -aG plugdev $LOGNAME
+

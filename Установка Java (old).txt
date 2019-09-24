@@ -1,0 +1,15 @@
+Установка Java 8 в Ubuntu/Linux Mint
+
+Откройте терминал (Ctrl+Alt+T), скопируйте и выполните эту последовательность команд:
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
+sudo apt install oracle-java8-set-default
+
+Этот процесс может занять некоторое время, потому что вы должны скачать Oracle Java 8 прямо с сайта.
+
+После завершения установки убедитесь, что Oracle Java 8 установилась и работает нормально. Выполните команду в терминале:
+
+java -version

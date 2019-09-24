@@ -1,0 +1,19 @@
+sudo apt-get install mono-complete
+
+sudo apt-add-repository ppa:jtaylor/keepass
+sudo apt-get update
+sudo apt-get install keepass2
+
+mkdir /usr/lib/keepass2/Languages
+cd /usr/lib/keepass2/Languages
+wget http://downloads.sourceforge.net/keepass/KeePass-2.40-Russian-c.zip
+unzip KeePass-2.40-Russian-c.zip
+rm KeePass-2.40-Russian-c.zip
+
+sudo apt-add-repository ppa:dlech/keepass2-plugins
+sudo apt-get update && sudo apt-get install xul-ext-keefox
+sudo apt-get install xul-ext-keebird
+sudo apt-get install keepass2-plugin-application-indicator
+sudo apt-get install xdotool 
+
+sudo apt-get install libmono-system-xml-linq4.0-cil libmono-system-data-datasetextensions4.0-cil libmono-system-runtime-serialization4.0-cil mono-mcs

@@ -1,0 +1,47 @@
+﻿	Multimedia
+xplayer
+vlc
+rhythmbox
+clementine
+gthumb
+pix
+xviewer
+
+	Office
+simple-scan
+okular
+calibre
+pdfshuffler
+retext
+sigil
+FBReader
+doublecmd
+kate
+shutter
+xreader
+xed
+
+	Internet
+megasync
+skypeforlinux
+chromium-browser
+firefox
+thunderbird
+qbittorrent
+
+	Utilities
+file-roller
+gnome-disks
+gnome-screenshot
+gnome-terminal
+fslint-gui
+gsmartcontrol
+gparted
+gnome-system-monitor
+
+	System
+wine
+clamtk
+redshift-gtk
+mintstick
+nemo

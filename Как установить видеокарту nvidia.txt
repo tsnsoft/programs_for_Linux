@@ -1,0 +1,7 @@
+sudo add-apt-repository ppa:xorg-edgers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-346 nvidia-settings nvidia-prime
+dkms status
+
+	Как все удалить)
+sudo apt-get purge nvidia-*

@@ -1,0 +1,21 @@
+sudo apt install python3-pip
+sudo apt install python-pip
+
+sudo apt-get install python3-pyqt5
+sudo apt-get install python3-pyqt5.qtsql
+sudo apt-get install qttools5-dev-tools
+
+sudo apt-get install build-essential
+sudo apt-get install qt5-default
+
+turtle: sudo apt-get install python3-tk
+
+/usr/lib/x86_64-linux-gnu/qt5/bin/designer 
+
+% apt-file search bin/designer                   
+qt4-designer: /usr/bin/designer-qt4 
+qt4-designer: /usr/lib/x86_64-linux-gnu/qt4/bin/designer 
+qt4-designer: /usr/share/qt4/bin/designer 
+qtchooser: /usr/bin/designer 
+qttools5-dev-tools: /usr/lib/x86_64-linux-gnu/qt5/bin/designer 
+

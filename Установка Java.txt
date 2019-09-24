@@ -1,0 +1,15 @@
+sudo tar -xvf ~/Загрузки/jdk-8u211-linux-x64.tar.gz
+sudo mkdir -p /usr/lib/jvm/jdk1.8.211
+sudo mv jdk1.8.0_211/* /usr/lib/jvm/jdk1.8.211/
+sudo rm -R -f jdk1.8.0_211
+
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.211/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.211/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.8.211/bin/javaws" 1
+
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.211
+export PATH=$PATH:$JAVA_HOME/bin
+
+sudo update-alternatives --config java
+
+java -version
