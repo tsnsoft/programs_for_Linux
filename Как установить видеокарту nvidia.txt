@@ -3,5 +3,5 @@ sudo apt-get update
 sudo apt-get install nvidia-346 nvidia-settings nvidia-prime
 dkms status
 
-	Как все удалить)
+	Как все удалить нафиг)
 sudo apt-get purge nvidia-*

@@ -14,7 +14,7 @@ calibre
 pdfshuffler
 retext
 sigil
-FBReader
+fbreader
 doublecmd
 kate
 shutter

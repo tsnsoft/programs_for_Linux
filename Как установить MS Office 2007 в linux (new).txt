@@ -1,0 +1,17 @@
+sudo rm -rf ~/.wine
+
+sudo dpkg --add-architecture i386
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+sudo apt-get update
+sudo apt-get install --install-recommends winehq-stable
+wine wineboot
+
+sudo apt-get install winetricks
+
+wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+sudo chmod +x winetricks
+sudo mv -v winetricks /usr/bin
+
+winetricks msxml3 gdiplus riched20 riched30 vcrun2005sp1 allfonts msxml4 msxml6 corefonts tahoma vb6run vcrun6 msi2 dotnet35
