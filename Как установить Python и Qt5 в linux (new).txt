@@ -1,0 +1,2 @@
+sudo apt install python3-pip python-pip python3-pyqt5 python3-pyqt5.qtsql qttools5-dev-tools build-essential qt5-default python3-tk
+sudo pip3 install setuptools numpy pandas openpyxl xlrd

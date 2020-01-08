@@ -1,0 +1,5 @@
+sudo usermod -a -G vboxusers $USER
+getent group vboxusers
+
+VBoxManage list usbhost
+
