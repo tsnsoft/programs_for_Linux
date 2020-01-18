@@ -1,0 +1,33 @@
+sudo apt install mysql-server
+sudo apt install mysql-workbench
+
+----------------------------------------
+sudo mysql_secure_installation
+y
+2
+PassW0Rd
+y
+y
+y
+n
+y
+----------------------------------------
+
+sudo mysql
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassW0Rd+';
+FLUSH PRIVILEGES;
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+exit
+
+mysql -u root -p
+PassW0Rd+
+
+CREATE USER 'tsn'@'localhost' IDENTIFIED BY 'Passw0rd+';
+GRANT ALL PRIVILEGES ON *.* TO 'tsn'@'localhost' WITH GRANT OPTION;
+exit
+----------------------------------------
+
+sudo systemctl start mysql
+systemctl status mysql.service
+

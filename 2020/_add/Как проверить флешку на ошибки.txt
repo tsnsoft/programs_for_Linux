@@ -1,0 +1,7 @@
+mount
+sudo umount /dev/sdc
+sudo dosfsck -w -r -l -a -v -t /dev/sdc
+
+----------------------------
+
+fsck.vfat -r -v /dev/sdc
